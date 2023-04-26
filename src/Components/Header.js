@@ -38,7 +38,16 @@ const Header = () => {
             marginRight: "500px",
           }}
         >
-          <MyLink to="/">Home</MyLink>
+          <MyLink to="/">
+            <img
+              width={30}
+              height={30}
+              style={{
+                borderRadius: 5,
+              }}
+              src="https://cdn.vectorstock.com/i/preview-1x/60/35/alphabet-initials-logo-bz-zb-z-and-b-vector-37926035.webp"
+            />
+          </MyLink>
           <MyLink to="/about">Cars</MyLink>
           <MyLink to="/contacts">Trucks</MyLink>
           <MyLink to="/blog">Bus</MyLink>
